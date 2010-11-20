@@ -10,9 +10,8 @@ get '/' do
 end
 
 post '/' do
-  key = OpenSSL::PKey::RSA.new(1024)
-  @private_key = key
-  @public_key = key.public_key
+  @private_key = OpenSSL::PKey::RSA.new(1024)
+  @public_key = @private_key.public_key
   haml :created
 end
 
