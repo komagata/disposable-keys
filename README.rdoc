@@ -1,12 +1,12 @@
-= fjord-keys
+= disposable-keys
 
 Generate private key and public key.
 
 == INSTALLATION
 
-  $ git clone git://github.com/komagata/fjord-keys.git
-  $ cd fjord-keys
-  $ bundle install --path bundle
+  $ git clone git://github.com/komagata/disposable-keys.git
+  $ cd disposable-keys
+  $ bundle
   $ bundle exec rackup
 
 View at: http://localhost:9292/
